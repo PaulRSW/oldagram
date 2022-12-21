@@ -1,0 +1,107 @@
+body{
+
+        margin:0;
+        background-color: #F5F5F5;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    header{
+        /* border:1px black solid; */
+        border-bottom:#c6c6c6 1px solid;
+    }
+header,
+section,
+footer
+{
+    width:375px;
+    background-color: #ffffff;
+    margin:0 auto;
+}
+.header-container{
+    margin:0;
+    display:flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding:10px;
+}
+#user-container{
+    margin:0;
+    padding:10px;
+    display:flex;
+}
+.user-div{
+    margin:0;
+    
+}
+span{
+    font-weight: 700;
+    display: block;
+}
+p{
+    margin:0;
+}
+footer{
+    margin-bottom: 25px;
+}
+/* IMAGES */
+.main-img{
+    width:375px;
+    height:375px;
+    margin:0;
+}
+
+.me-avatar-img,
+.avatar-img{
+    width:34px;
+    height:34px;
+    border-radius: 100%;
+    margin:0;
+    padding-right:10px;
+}
+.logo{
+    width:150px;
+    height:60px;
+}
+.icon-img{
+    margin:0;
+    height:33px;
+    width:35px;
+    padding:20px 5px 10px;
+}
+.icon-img:hover,
+.icon-img:focus{
+    opacity: 0.2;
+}
+
+/* FOOTER */
+div{
+    margin:0;
+}
+#like-p{
+
+    margin:0;
+    font-weight:700;  
+    padding-left: 10px;
+    padding-bottom: 2px; 
+}
+.comment-div{
+    margin:0;
+    padding: 12px 0 16px 10px;
+}
+.comment-span{
+    display:inline-block;
+}
+#div-likes{
+
+    margin:0;
+    display:flex;
+    
+}
+#like-btn{
+    border:none;
+
+    background:#ffffff;
+    margin:0;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:16px;
+}
